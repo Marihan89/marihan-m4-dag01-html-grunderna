@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- Dag 1: Bygg startsidan för Kafé Kardemumma.
      Följ stegen i README.md. Texterna finns i innehall.md.
      TODO 1: Skapa dokumentets skelett (doctype, html, head, body)
@@ -7,3 +7,128 @@
      TODO 4: Bygg menyns artiklar med alt-text
      TODO 5: Bygg footer
 -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kafé Kardemumma – fika i hjärtat av Stockholm</title>
+    </head>
+    <body>
+        <header>
+            <h1>Kafé Kardemumma</h1>
+            <nav aria-label="MainMenu">
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="kontakt.html">Book a table</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <h2>Freshly baked every morning</h2>
+                <p>
+                    With us, everything is baked from scratch. Come in for a
+                    bun, a cup of coffee and a moment for yourself.
+                </p>
+                <a href="#menu">See the menu</a>
+            </section>
+
+            <section id="menu">
+                <div class="menu-list">
+                    <article>
+                        <img
+                            src="images/bulle.svg"
+                            alt="A freshly baked cardamom bun"
+                        />
+                        <h3>Cardamom bun</h3>
+                        <p>Baked on fresh cardamom and pearl sugar.</p>
+                        <p>SEK 35</p>
+                    </article>
+                    <article>
+                        <img
+                            src="images/kaffe.svg"
+                            alt="A freshly brewed coffee bun"
+                        />
+                        <h3>Brewed coffee</h3>
+                        <p>Locally roasted, with free wear.</p>
+                        <p>SEK 32</p>
+                    </article>
+                    <article>
+                        <img
+                            src="images/smorgas.svg"
+                            alt="A freshly made cheese sandwich"
+                        />
+                        <h3>Cheese sandwich</h3>
+                        <p>Sourdough bread, aged cheese and crispy salad.</p>
+                        <p>SEK 35</p>
+                    </article>
+                </div>
+            </section>
+
+            <!---<table>
+                    <tr>
+                        <th>Right</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Picture</th>
+                    </tr>
+                    <tr>
+                        <td>Cardamom bun</td>
+                        <td>Baked on fresh cardamom and pearl sugar.</td>
+                        <td>SEK 35</td>
+                        <td>
+                            <img
+                                src="images/bulle.svg"
+                                alt="A freshly baked cardamom bun"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Brewed coffee bun</td>
+                        <td>Locally roasted, with free wear.</td>
+                        <td>SEK 32</td>
+                        <td>
+                            <img
+                                src="images/kafe.svg"
+                                alt="A freshly brewed coffee bun"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cheese sandwich</td>
+                        <td>Sourdough bread, aged cheese and crispy salad.</td>
+                        <td>SEK 59</td>
+                        <td>
+                            <img
+                                src="images/smorgas.svg"
+                                alt="A freshly made cheese sandwich"
+                            />
+                        </td>
+                    </tr>
+                </table>-->
+
+            <section id="about-us">
+                <h2>About Us</h2>
+                <p>
+                    Café Kardemumma opened in 2019 and is run by two friends who
+                    wanted a place where you dare to stay. We shop locally and
+                    bake every day.
+                </p>
+                <p>Open weekdays 07–18 and weekends 09–16.</p>
+                <img src="images/kafe.svg" alt="Café Kardemumma interior" />
+            </section>
+        </main>
+        <footer>
+            <p>© 2026 Café Cardemumma</p>
+            <address>Fiktivgatan 1, 111 11 Stockholm</address>
+            <p>
+                mailto:
+                <a href="mailto:hello@kardemumma.example"
+                    >hello@kardemumma.example</a
+                >
+            </p>
+        </footer>
+    </body>
+</html>
